@@ -1,12 +1,206 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoShow</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <h1>salom</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, modi tempora magni ab dolorum delectus doloremque, necessitatibus facilis alias architecto exercitationem, autem iste iusto numquam? Beatae dolorem et sequi expedita!</p>
+
+  <section class="car-showcase" id="cars">
+
+    <div class="showcase-copy">
+      <span class="eyebrow">OUR COLLECTION</span>
+
+      <h1>Explore Our <span>Premium Cars</span></h1>
+
+      <p>
+        From the legendary BMW to the iconic Mercedes,
+        find the perfect car that matches your style and lifestyle.
+      </p>
+
+      <div class="mini-benefits">
+
+        <div class="mini-benefit">
+          <span class="round-icon">
+            <i class="fa-solid fa-trophy"></i>
+          </span>
+          <div>
+            <strong>Premium Quality</strong>
+            <small>Only the best brands</small>
+          </div>
+        </div>
+
+        <div class="mini-benefit">
+          <span class="round-icon">
+            <i class="fa-solid fa-tag"></i>
+          </span>
+          <div>
+            <strong>Best Prices</strong>
+            <small>Competitive rates</small>
+          </div>
+        </div>
+
+        <div class="mini-benefit">
+          <span class="round-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </span>
+          <div>
+            <strong>Trusted Dealer</strong>
+            <small>100% guarantee</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="cars-area">
+      <div class="car-list">
+
+        <article class="car-card active">
+          <img
+            src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=700&q=85"
+            alt="BMW M4"
+          >
+          <div class="car-info">
+            <h2>BMW M4</h2>
+            <p>Competition Coupe</p>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <img
+            src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=700&q=85"
+            alt="Mercedes-Benz C63"
+          >
+          <div class="car-info">
+            <h2>Mercedes-Benz C63</h2>
+            <p>AMG Sedan</p>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <img
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=85"
+            alt="Audi R8"
+          >
+          <div class="car-info">
+            <h2>Audi R8</h2>
+            <p>V10 Coupe</p>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <img
+            src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=700&q=85"
+            alt="Tesla Model S"
+          >
+          <div class="car-info">
+            <h2>Tesla Model S</h2>
+            <p>Electric Sedan</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="scroll-track">
+        <span></span>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="site-footer" id="about">
+
+    <div class="footer-benefits">
+
+      <div class="footer-benefit">
+        <span class="feature-icon">
+          <i class="fa-solid fa-award"></i>
+        </span>
+        <div>
+          <h3>Premium Quality</h3>
+          <p>Eng yaxshi brendlar va original avtomobillar.</p>
+        </div>
+      </div>
+
+      <div class="footer-benefit">
+        <span class="feature-icon">
+          <i class="fa-solid fa-store"></i>
+        </span>
+        <div>
+          <h3>Modern Showroom</h3>
+          <p>Yevropa salonlarida yoki maxsus uylarda namoyish etiladi.</p>
+        </div>
+      </div>
+
+      <div class="footer-benefit">
+        <span class="feature-icon">
+          <i class="fa-solid fa-camera"></i>
+        </span>
+        <div>
+          <h3>Innovative Technology</h3>
+          <p>360° aylanuvchi qurilma bilan to‘liq tajriba.</p>
+        </div>
+      </div>
+
+      <div class="footer-benefit">
+        <span class="feature-icon">
+          <i class="fa-solid fa-shield-halved"></i>
+        </span>
+        <div>
+          <h3>Trust &amp; Support</h3>
+          <p>Sizning ishonchingiz biz uchun muhim.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <a href="#home" class="brand">
+        <i class="fa-solid fa-car-side"></i>
+        <span>Auto<strong>Show</strong></span>
+      </a>
+
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#cars">Cars</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#" aria-label="Telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        © 2025 AutoShow. All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>
